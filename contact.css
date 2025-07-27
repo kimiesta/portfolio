@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(10,17,32);
+}
+
+    
+
+
+h2 {
+    padding: 3% 0% 0% 5%;
+    color: white;
+    font-size: 64px;
+    /* border-top: 2px white solid; */
+}
+
+.contact-section ul {
+    list-style: none;  /* Removes default bullets */
+    padding-left: 5%;
+    margin-top: 10px;
+    line-height: 1.8;  /* More space between lines */
+    word-spacing: 10px;
+}
+
+.contact-section ul li strong {
+    color: #0f73d7; /* Highlight labels like "Name" */
+    font-size: 32px;
+}
+
+li {
+    font-size: 32px;
+    color: white;
+}
