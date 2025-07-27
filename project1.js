@@ -60,14 +60,14 @@ function loadHome() {
 function loadAbout() {
     
     loadPage(`
-        <iframe src="http://127.0.0.1:5500/projects/about.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
+        <iframe src="http://127.0.0.1:5500/about.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
     `,"b2");
 }
 
 function loadResume() {
     
     loadPage(`
-        <iframe src="http://127.0.0.1:5500/projects/resume.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
+        <iframe src="http://127.0.0.1:5500/resume.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
     `,"b3");
 }
 
@@ -75,14 +75,14 @@ function loadPortfolio() {
     
     loadPage(`
         
-        <iframe src="http://127.0.0.1:5500/projects/portfolio.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
+        <iframe src="http://127.0.0.1:5500/portfolio.html"  style="width:100%; height:100%; border:none; display:block; "></iframe>
     `,"b4");
 }
 
 function loadContact() {
     
     loadPage(`
-        <iframe src="http://127.0.0.1:5500/projects/contact.html"  style="width:100%;
+        <iframe src="http://127.0.0.1:5500/contact.html"  style="width:100%;
         height:100%; border:none;
         display:block; "></iframe>
     `,"b5");
